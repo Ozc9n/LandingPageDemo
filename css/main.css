@@ -31,3 +31,57 @@ html{
     background: #336ea2;
     border-radius: 4px;
 }
+/* HOme Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p {
+    opacity: 0.6;
+    font-style: italic;
+}
+/* #home a {
+    margin-top: 1.25rem;
+    background: #336ea2;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+#home a:hover{
+   color: #336ea2;
+   background-color: #ffffff;
+   border: 0.5px solid #336ea2;
+} */
+/* Bu şekildeki gibi tekrar tekrar yazmak yerine
+ global.css'de tanımladığımız ortak
+fonksiyonları kullanmak daha kolay  */
+#interest{
+    color: #ffffff;
+    padding: 1rem;
+}
+#interest .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#interest .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#interest.items .item:hover{
+    color: aqua;
+    opacity: 0.6;
+}

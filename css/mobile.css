@@ -5,3 +5,10 @@
     overflow: hidden;
     height: 80px;
 }
+#interest .items{
+    flex-direction: column;
+
+}
+#interest .items .item{
+    width: 100%;
+}
