@@ -85,3 +85,69 @@ fonksiyonları kullanmak daha kolay  */
     color: aqua;
     opacity: 0.6;
 }
+/* About */
+#about{
+    color: #333333;
+    padding: 1rem;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.about .education{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.about .education .edu-image{
+    margin-right: 0.5rem;
+    position: relative;
+}
+.about .education .edu-image img{
+    border-radius: 5px;
+}
+.about .education .edu-image span{
+    background: red;
+    padding: 0.06rem;
+    color: #ffffff;
+    border-radius: 4px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.about .education .edu-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+.about .education .edu-info .description{
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+/* Contact */
+#contact{
+    color: #ffffff;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+#contact .contact-form a{
+    padding: 1rem;
+    font-size: 4rem;
+}
+#contact .contact-form a:hover{
+    opacity: 0.6;
+}

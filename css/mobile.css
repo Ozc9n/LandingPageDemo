@@ -12,3 +12,9 @@
 #interest .items .item{
     width: 100%;
 }
+.about .education{
+    flex-direction: column;
+}
+.about .edu-info .title{
+    text-align: center;
+}
