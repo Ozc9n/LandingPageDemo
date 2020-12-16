@@ -1,3 +1,3 @@
 # LandingPageDemo
-#Html ve Css kullanrak yaptığım tek sayfalı web sitesi
+#Html ve Css kullanarak yaptığım tek sayfalı web sitesi
 
